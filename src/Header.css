@@ -1,0 +1,28 @@
+.firstName {
+    font-family: "Roboto Black";
+    color: lightyellow;
+    text-transform: uppercase;
+    font-size: 7em;
+    text-align: left;
+    padding-left: 20px;
+    text-shadow: 4px 4px gray;
+}
+
+.lastName {
+    font-family: "Roboto Black";
+    color: lightyellow;
+    text-transform: uppercase;
+    font-size: 7em;
+    text-align: left;
+    padding-left: 110px;
+    margin-top: -1.15em;
+    text-shadow: 4px 4px gray;
+}
+
+.headerSection {
+    background-image: url("../img/marble.jpg");
+    background-size: 100%;
+    background-color: darkcyan;
+    padding-bottom: 20%;
+    margin-top: -80px;
+}
