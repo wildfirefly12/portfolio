@@ -9,7 +9,7 @@ const AppSection = (props) => {
         <div>
             <h2 className="sectionTitle">{props.sectionTitle}</h2>
             {props.apps.map(app =>
-                <AppCard title={app.title} language={app.language} description={app.description}/>
+                <AppCard key={app.id} title={app.title} language={app.language} description={app.description} urls={app.urls}/>
             )}
         </div>
     )

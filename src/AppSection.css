@@ -1,6 +1,7 @@
 .sectionTitle {
     font-size: 3em;
     color: darkcyan;
-    font-family: "Roboto Black";
+    font-family: "Roboto";
+    font-weight: 900;
     text-transform: uppercase;
 }

@@ -3,9 +3,14 @@ import React from "react";
 import "./AppButton.css";
 
 const AppButton = (props) => {
+
+    const handleClick = (url) => {
+        window.open(url, '_blank');
+    }
+
     return (
         <>
-            <button className="appButton">{props.buttonTitle}</button>
+            <button className="appButton" onClick={handleClick.bind(this, props.url)}>{props.buttonTitle}</button>
         </>
     )
 }

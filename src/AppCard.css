@@ -8,6 +8,8 @@
     box-shadow: 5px 5px 5px gray;
     height: 350px;
     background-color: mintcream;
+    vertical-align: top;
+;
 }
 
 .title {
