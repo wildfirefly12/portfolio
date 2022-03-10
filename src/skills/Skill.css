@@ -1,8 +1,8 @@
 .skill {
     display: inline-block;
     vertical-align: top;
-    width: 280px;
-    height: 140px;
+    width: 180px;
+    height: 90px;
     background: lightyellow;
     position: relative;
     margin: 20px;
@@ -10,29 +10,29 @@
 .skill::before {
     content: "";
     position: absolute;
-    top: -104px;
+    top: -62px;
     left: 0;
     width: 0;
     height: 0;
-    border-left: 140px solid transparent;
-    border-right: 140px solid transparent;
-    border-bottom: 104px solid lightyellow;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 62px solid lightyellow;
 }
 .skill::after {
     content: "";
     position: absolute;
-    bottom: -104px;
+    bottom: -62px;
     left: 0;
     width: 0;
     height: 0;
-    border-left: 140px solid transparent;
-    border-right: 140px solid transparent;
-    border-top: 104px solid lightyellow;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 62px solid lightyellow;
 }
 
 .skillTitle{
     color: darkcyan;
-    font-size: 2.4em;
+    font-size: 1.6em;
     font-family: "Roboto Condensed";
     font-weight: bolder;
     text-transform: uppercase;
@@ -49,7 +49,7 @@
 
 .skillYears{
     color: black;
-    font-size: 1.6em;
+    font-size: 1.2em;
     font-family: "Roboto Condensed";
     font-weight: normal;
     margin-top: 10px;
