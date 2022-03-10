@@ -10,7 +10,7 @@
     font-weight: 900;
     font-size: 5em;
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
     margin: 20px;
     margin-bottom: 100px;
 }
@@ -26,4 +26,8 @@
     font-size: 1.4em;
     color: white;
     display: inline-block;
+}
+
+.skills{
+    margin: 100px;
 }

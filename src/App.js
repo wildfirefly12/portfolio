@@ -1,5 +1,5 @@
 import './App.css';
-import AppSection from "./AppSection";
+import AppSection from "./App/AppSection";
 import React from "react";
 import Header from "./Header";
 import AboutMe from "./AboutMe";

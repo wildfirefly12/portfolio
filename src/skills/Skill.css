@@ -2,7 +2,7 @@
     display: inline-block;
     vertical-align: top;
     width: 280px;
-    height: 185px;
+    height: 140px;
     background: lightyellow;
     position: relative;
     margin: 20px;
@@ -21,13 +21,13 @@
 .skill::after {
     content: "";
     position: absolute;
-    bottom: -58px;
+    bottom: -104px;
     left: 0;
     width: 0;
     height: 0;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-top: 58px solid lightyellow;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-top: 104px solid lightyellow;
 }
 
 .skillTitle{
