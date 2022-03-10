@@ -4,3 +4,17 @@
 .App {
     text-align: center;
 }
+
+.section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.projectsTitle{
+    font-size: 4.5em;
+    color: darkcyan;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+}

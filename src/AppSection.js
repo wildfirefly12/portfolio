@@ -6,8 +6,7 @@ import "./AppSection.css"
 const AppSection = (props) => {
 
     return (
-        <div>
-            <h2 className="sectionTitle">{props.sectionTitle}</h2>
+        <div className={"appSection"}>
             {props.apps.map(app =>
                 <AppCard key={app.id} title={app.title} language={app.language} description={app.description} urls={app.urls}/>
             )}

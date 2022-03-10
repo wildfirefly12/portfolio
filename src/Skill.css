@@ -1,0 +1,56 @@
+.skill {
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    height: 185px;
+    background: lightyellow;
+    position: relative;
+    margin: 20px;
+}
+.skill::before {
+    content: "";
+    position: absolute;
+    top: -104px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 104px solid lightyellow;
+}
+.skill::after {
+    content: "";
+    position: absolute;
+    bottom: -58px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 58px solid lightyellow;
+}
+
+.skillTitle{
+    color: darkcyan;
+    font-size: 2.4em;
+    font-family: "Roboto Condensed";
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: -8px;
+}
+
+.skillContent{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skillYears{
+    color: black;
+    font-size: 1.6em;
+    font-family: "Roboto Condensed";
+    font-weight: normal;
+    margin-top: 10px;
+}

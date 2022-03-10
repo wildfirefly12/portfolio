@@ -60,8 +60,11 @@ function App() {
     return (
         <div className="App">
             <Header/>
-            <AppSection sectionTitle={"Java"} apps={javaApps}/>
-            <AppSection sectionTitle={"Wordpress"} apps={wordpressApps}/>
+            <div className={"section"}>
+                <h2 className={"projectsTitle"}>Projects</h2>
+                <AppSection sectionTitle={"Java"} apps={javaApps}/>
+                <AppSection sectionTitle={"Wordpress"} apps={wordpressApps}/>
+            </div>
             <AboutMe/>
         </div>
     );

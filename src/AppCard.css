@@ -1,4 +1,4 @@
-.container {
+/*.container {
     border: 5px solid darkcyan;
     border-radius: 10px;
     padding: 20px;
@@ -7,25 +7,61 @@
     margin: 20px;
     box-shadow: 5px 5px 5px gray;
     height: 350px;
-    background-color: mintcream;
+    background-color: lightyellow;
     vertical-align: top;
-;
+}*/
+
+.container {
+    display: inline-block;
+    vertical-align: top;
+    width: 450px;
+    height: 259px;
+    background: lightyellow;
+    position: relative;
+    margin: 30px;
+}
+.container::before {
+    content: "";
+    position: absolute;
+    top: -151px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 220px solid transparent;
+    border-right: 220px solid transparent;
+    border-bottom: 151px solid lightyellow;
+}
+.container::after {
+    content: "";
+    position: absolute;
+    bottom: -151px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 220px solid transparent;
+    border-right: 220px solid transparent;
+    border-top: 151px solid lightyellow;
 }
 
 .title {
     color: darkcyan;
     font-size: 2em;
     font-family: "Roboto Condensed";
+    margin: -8px;
 }
 
 .language {
     font-size: 1.4em;
-    font-family: "Roboto Light";
+    font-family: "Roboto";
+    font-weight: normal;
     font-style: italic;
-    margin-top: -1em
+    margin-top: -1em;
+    margin: 10px;
 }
 
 .description {
     font-family: "Roboto Condensed";
     font-size: 1.2em;
+    padding: 10px;
+    margin: 10px;
 }
