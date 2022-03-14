@@ -3,18 +3,32 @@
 
 .App {
     text-align: center;
+    padding: 0px;
 }
 
 .section{
-    padding-top: 50px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
     padding-bottom: 50px;
+    max-width: 1250px;
 }
 
-.projectsTitle{
-    font-size: 4.5em;
+.sectionTitle{
+    font-size: 4em;
     color: darkcyan;
-    font-family: "Roboto";
-    font-weight: 900;
-    text-transform: uppercase;
-    padding-bottom: 100px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    text-transform: lowercase;
+    padding-bottom: 0px;
+}
+
+.skillsSection{
+    background-color: lightyellow;
+    padding-top: 30px;
+    padding-top: 30px;
 }

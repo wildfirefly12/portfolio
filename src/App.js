@@ -1,11 +1,13 @@
 import './App.css';
-import AppSection from "./App/AppSection";
 import React from "react";
-import Header from "./Header";
-import AboutMe from "./AboutMe";
+import Header from "./components/Header";
+import NavBar from "./components/nav/NavBar";
+import AppCard from "./components/apps/AppCard";
+import Skills from "./components/skills/Skills";
+import {BrowserRouter, Route, Router} from "react-router-dom";
 
 function App() {
-    const javaApps = [
+    const apps = [
         {
             id: "1",
             title: "Inventory Manager",
@@ -18,7 +20,7 @@ function App() {
         },
         {
             id: "2",
-            title: "Scheduling App",
+            title: "Scheduling apps",
             language: "Java, JavaFX, SQL",
             description: "Assignment for C195 Software II for WGU to create and implement a contact management and scheduling application. Created using Java, JavaFX, and MySQL.",
             urls: [
@@ -35,10 +37,7 @@ function App() {
                 {id: "1", buttonTitle: "Code", url: "https://github.com/wildfirefly12/wguC196"},
                 {id: "2", buttonTitle: "App", url: "https://www.youtube.com/watch?v=8_HPkVqtNTk"}
                 ]
-        }
-    ]
-
-    const wordpressApps = [
+        },
         {
             title: "Christine Bakke Photo",
             language: "Wordpress",
@@ -58,15 +57,25 @@ function App() {
     ]
 
     return (
-        <div className="App">
-            <Header/>
-            <div className={"section"}>
-                <h2 className={"projectsTitle"}>Projects</h2>
-                <AppSection sectionTitle={"Java"} apps={javaApps}/>
-                <AppSection sectionTitle={"Wordpress"} apps={wordpressApps}/>
+
+            <div className="App">
+                <BrowserRouter>
+                    <NavBar/>
+                </BrowserRouter>
+                <Header/>
+                <div id={"portfolio"}>
+                    <h2 className={"sectionTitle"}>Projects</h2>
+                    <div className={"section"}>
+                        {apps.map(app =>
+                            <AppCard key={app.id} title={app.title} language={app.language} description={app.description} urls={app.urls}/>
+                        )}
+                    </div>
+                </div>
+                <div className={"skillsSection"} id={"skills"}>
+                    <h2 className={"sectionTitle"}>Skills</h2>
+                    <Skills/>
+                </div>
             </div>
-            <AboutMe/>
-        </div>
     );
 }
 

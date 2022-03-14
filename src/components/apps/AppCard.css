@@ -1,0 +1,45 @@
+.container {
+    display: inline-block;
+    vertical-align: top;
+    background: white;
+    position: relative;
+    margin: 15px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+    padding: 30px 20px 20px;
+    width: 300px;
+    background-image: url("../../img/code.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: gray;
+}
+
+
+.title {
+    color: darkcyan;
+    font-size: 1.4em;
+    font-family: "Roboto Condensed";
+    margin: -5px;
+    text-shadow: 5px 5px 5px black;
+    background-image: radial-gradient(black, transparent);
+}
+
+.language {
+    font-size: 1em;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-style: italic;
+    color: white;
+    margin-top: -1em;
+    margin: 10px;
+}
+
+.description {
+    font-family: "Roboto Condensed";
+    font-size: .8em;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    background-image: radial-gradient(black, transparent);
+}

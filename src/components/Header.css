@@ -1,0 +1,77 @@
+.headerSection {
+    background-image: url("../img/marble.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkcyan;
+    padding-bottom: 20%;
+    max-height: 550px;
+}
+
+.firstName {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 9vw;
+    color: lightyellow;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 20px;
+    -webkit-text-stroke: 1px gray;
+    padding-top: 50px;
+    margin-top: 0px;
+}
+
+.lastName {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 9vw;
+    color: lightyellow;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 8vh;
+    margin-top: -1.15em;
+    -webkit-text-stroke: 1px gray;
+}
+
+.tagline{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    color: lightyellow;
+    font-size: 6vw;
+    -webkit-text-stroke: 1px gray;
+}
+
+@media screen and (max-width: 800px) {
+    .firstName {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-size: 4em;
+        color: lightyellow;
+        text-transform: uppercase;
+        text-align: left;
+        padding-left: 20px;
+        -webkit-text-stroke: 1px gray;
+        padding-top: 50px;
+        margin-top: 0px;
+    }
+
+    .lastName {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-size: 4em;
+        color: lightyellow;
+        text-transform: uppercase;
+        text-align: left;
+        padding-left: 8vh;
+        margin-top: -1.15em;
+        -webkit-text-stroke: 1px gray;
+    }
+
+    .tagline{
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 500;
+        color: lightyellow;
+        outline: gray;
+        font-size: 3em;
+        -webkit-text-stroke: 1px gray;
+    }
+}
