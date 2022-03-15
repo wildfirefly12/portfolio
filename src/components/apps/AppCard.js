@@ -11,9 +11,11 @@ const AppCard = (props) => {
             <h3 className="title">{props.title}</h3>
             <h4 className="language">{props.language}</h4>
             <p className="description">{props.description}</p>
-            {(props.urls || []).map(u =>
-                <AppButton key={u.id} buttonTitle={u.buttonTitle} url={u.url}/>
-            )}
+            <div className={"appButtons"}>
+                {(props.urls || []).map(u =>
+                    <AppButton key={u.id} buttonTitle={u.buttonTitle} url={u.url}/>
+                )}
+            </div>
         </div>
     )
 }

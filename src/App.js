@@ -54,7 +54,7 @@ function App() {
             language: "Wordpress",
             description: "A portfolio website for Christine Bakke Photography built with WordPress and Divi.",
             urls: [
-                {id: "1", buttonTitle: "Site", url: "www.cbakkephotography.com"}
+                {id: "1", buttonTitle: "Site", url: "https://www.cbakkephotography.com"}
             ]
         },
         {
@@ -63,7 +63,7 @@ function App() {
             language: "Wordpress",
             description: "A website for a fitness center utilizing WordPress and Divi.",
             urls: [
-                {id: "1", buttonTitle: "Site", url: "www.thefirehousefitnesscenter.com"}
+                {id: "1", buttonTitle: "Site", url: "https://www.thefirehousefitnesscenter.com"}
             ]
         }
     ]

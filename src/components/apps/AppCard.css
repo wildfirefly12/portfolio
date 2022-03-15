@@ -1,5 +1,6 @@
 .container {
     display: inline-block;
+    position: relative;
     vertical-align: top;
     background: white;
     position: relative;
@@ -8,6 +9,7 @@
     border-radius: 10px;
     padding: 30px 20px 20px;
     width: 300px;
+    min-height: 200px;
     background-image: url("../../img/code.jpg");
     background-size: cover;
     background-blend-mode: overlay;
@@ -42,4 +44,11 @@
     color: white;
     text-shadow: 5px 5px 5px black;
     background-image: radial-gradient(black, transparent);
+}
+
+.appButtons{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
 }
