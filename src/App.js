@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import NavBar from "./components/nav/NavBar";
 import AppCard from "./components/apps/AppCard";
 import Skills from "./components/skills/Skills";
-import {BrowserRouter, Route, Router} from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 
 function App() {
     const apps = [
