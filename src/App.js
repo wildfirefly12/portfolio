@@ -9,7 +9,17 @@ import {BrowserRouter} from "react-router-dom";
 function App() {
     const apps = [
         {
-            id: "1",
+            id: "7",
+            title: "To-Do App",
+            language: "Javascript, React",
+            description: "A simple to-do/note management application.",
+            urls: [
+                {id: "1", buttonTitle: "Code", url: "https://github.com/wildfirefly12/todo"},
+                {id: "2", buttonTitle: "App", url: "https://todo-m54s3.ondigitalocean.app/"}
+            ]
+        },
+        {
+            id: "6",
             title: "Inventory Manager",
             language: "Java, JavaFX",
             description: "Assignment for C482 Software I for WGU to create and implement an Inventory Management System. Created using Java and JavaFX.",
@@ -19,7 +29,7 @@ function App() {
                 ]
         },
         {
-            id: "2",
+            id: "5",
             title: "Scheduling apps",
             language: "Java, JavaFX, SQL",
             description: "Assignment for C195 Software II for WGU to create and implement a contact management and scheduling application. Created using Java, JavaFX, and MySQL.",
@@ -29,7 +39,7 @@ function App() {
                 ]
         },
         {
-            id: "3",
+            id: "4",
             title: "Android Course Manager",
             language: "Java",
             description: "Assignment for C196 for WGU to create and implement an Andriod application. Created using Java.",
@@ -39,6 +49,7 @@ function App() {
                 ]
         },
         {
+            id: "2",
             title: "Christine Bakke Photo",
             language: "Wordpress",
             description: "A portfolio website for Christine Bakke Photography built with WordPress and Divi.",
@@ -47,6 +58,7 @@ function App() {
             ]
         },
         {
+            id: "1",
             title: "Firehouse Fitness Center",
             language: "Wordpress",
             description: "A website for a fitness center utilizing WordPress and Divi.",
