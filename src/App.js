@@ -9,17 +9,17 @@ import {BrowserRouter} from "react-router-dom";
 function App() {
     const apps = [
         {
-            id: "7",
+            id: "6",
             title: "To-Do App",
             language: "Javascript, React",
-            description: "A simple to-do/note management application.",
+            description: "A simple to-do/note management application. Created using React and Javascript",
             urls: [
                 {id: "1", buttonTitle: "Code", url: "https://github.com/wildfirefly12/todo"},
                 {id: "2", buttonTitle: "App", url: "https://todo-m54s3.ondigitalocean.app/"}
             ]
         },
         {
-            id: "6",
+            id: "5",
             title: "Inventory Manager",
             language: "Java, JavaFX",
             description: "Assignment for C482 Software I for WGU to create and implement an Inventory Management System. Created using Java and JavaFX.",
@@ -29,7 +29,7 @@ function App() {
                 ]
         },
         {
-            id: "5",
+            id: "4",
             title: "Scheduling apps",
             language: "Java, JavaFX, SQL",
             description: "Assignment for C195 Software II for WGU to create and implement a contact management and scheduling application. Created using Java, JavaFX, and MySQL.",
@@ -39,13 +39,12 @@ function App() {
                 ]
         },
         {
-            id: "4",
+            id: "3",
             title: "Android Course Manager",
             language: "Java",
             description: "Assignment for C196 for WGU to create and implement an Andriod application. Created using Java.",
             urls: [
-                {id: "1", buttonTitle: "Code", url: "https://github.com/wildfirefly12/wguC196"},
-                {id: "2", buttonTitle: "App", url: "https://www.youtube.com/watch?v=8_HPkVqtNTk"}
+                {id: "1", buttonTitle: "Code", url: "https://github.com/wildfirefly12/wguC196"}
                 ]
         },
         {
@@ -69,25 +68,26 @@ function App() {
     ]
 
     return (
-
-            <div className="App">
-                <BrowserRouter>
-                    <NavBar/>
-                </BrowserRouter>
-                <Header/>
-                <div id={"portfolio"}>
-                    <h2 className={"sectionTitle"}>Projects</h2>
-                    <div className={"section"}>
-                        {apps.map(app =>
-                            <AppCard key={app.id} title={app.title} language={app.language} description={app.description} urls={app.urls}/>
-                        )}
-                    </div>
-                </div>
-                <div className={"skillsSection"} id={"skills"}>
-                    <h2 className={"sectionTitle"}>Skills</h2>
-                    <Skills/>
+        <div className="App">
+            <BrowserRouter>
+                <NavBar/>
+            </BrowserRouter>
+            <Header/>
+            <div id={"portfolio"} />
+            <div>
+                <h2 className={"sectionTitle"}>Projects</h2>
+                <div className={"section"}>
+                    {apps.map(app =>
+                        <AppCard key={app.id} title={app.title} language={app.language} description={app.description} urls={app.urls}/>
+                    )}
                 </div>
             </div>
+            <div id={"skills"}/>
+            <div className={"skillsSection"}>
+                <h2 className={"sectionTitle"}>Skills</h2>
+                <Skills/>
+            </div>
+        </div>
     );
 }
 

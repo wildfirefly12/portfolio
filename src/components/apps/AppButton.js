@@ -9,9 +9,7 @@ const AppButton = (props) => {
     }
 
     return (
-        <>
-            <button className="appButton" onClick={handleClick.bind(this, props.url)}>{props.buttonTitle}</button>
-        </>
+        <button className="app-btn" onClick={handleClick.bind(this, props.url)}>{props.buttonTitle}</button>
     )
 }
 
