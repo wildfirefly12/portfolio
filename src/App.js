@@ -25,7 +25,7 @@ function App() {
             description: "Assignment for C482 Software I for WGU to create and implement an Inventory Management System. Created using Java and JavaFX.",
             urls: [
                 {id: "1", buttonTitle: "Code", url: "https://github.com/wildfirefly12/WGU-C482-Final"},
-                {id: "2", buttonTitle: "App", url: "https://www.youtube.com/watch?v=8_HPkVqtNTk"}
+                {id: "2", buttonTitle: "Demo", url: "https://www.youtube.com/watch?v=8_HPkVqtNTk"}
                 ]
         },
         {
@@ -35,7 +35,7 @@ function App() {
             description: "Assignment for C195 Software II for WGU to create and implement a contact management and scheduling application. Created using Java, JavaFX, and MySQL.",
             urls: [
                 {id: "1", buttonTitle: "Code", url: "https://github.com/wildfirefly12/WGU-C195-Final"},
-                {id: "2", buttonTitle: "App", url: "https://www.youtube.com/watch?v=mCmp9_pinaM"}
+                {id: "2", buttonTitle: "Demo", url: "https://www.youtube.com/watch?v=mCmp9_pinaM"}
                 ]
         },
         {
