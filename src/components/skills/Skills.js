@@ -27,43 +27,43 @@ const Skills = () => {
             id: 2,
             img: javaScript,
             title: "JavaScript",
-            years: "2 years"
+            years: "4 years"
         },
         {
             id: 3,
             img: cSharp,
             title: "C#",
-            years: "1 year"
+            years: "3 years"
         },
         {
             id: 4,
             img: sql,
             title: "SQL",
-            years: "2 years"
+            years: "4 years"
         },
         {
             id: 5,
             img: html,
             title: "HTML",
-            years: "5 years"
+            years: "7 years"
         },
         {
             id: 6,
             img: css,
             title: "CSS",
-            years: "5 years"
+            years: "7 years"
         },
         {
             id: 7,
             img: react,
             title: "React",
-            years: "1 year"
+            years: "3 years"
         },
         {
             id: 8,
             img: dotnet,
             title: ".Net",
-            years: "1 year"
+            years: "3 years"
         },
         {
             id: 9,
