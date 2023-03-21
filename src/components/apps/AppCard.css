@@ -20,7 +20,7 @@
 .title {
     color: palegoldenrod;
     font-size: 1.8em;
-    font-family: "Roboto Condensed";
+    font-family: "Roboto Condensed", sans-serif;
     margin: -5px;
     text-shadow: 5px 5px 5px black;
     /*background-image: radial-gradient(black, transparent);*/
@@ -28,11 +28,10 @@
 
 .language {
     font-size: 1.4em;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-style: italic;
     color: white;
-    margin-top: -1em;
     margin: 10px;
 }
 
@@ -44,7 +43,7 @@
 }
 
 .description {
-    font-family: "Roboto Condensed";
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 1.2em;
     /*padding: 15px 10px 15px 10px;*/
     /*margin: 10px;*/
