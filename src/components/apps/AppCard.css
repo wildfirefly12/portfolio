@@ -7,8 +7,9 @@
     box-shadow: 2px 2px 5px gray;
     border-radius: 10px;
     padding-top: 30px;
-    width: 300px;
-    min-height: 230px;
+    width: 320px;
+    min-height: 250px;
+    padding-bottom: 40px;
     background-image: url("../../img/code.jpg");
     background-size: cover;
     background-blend-mode: soft-light;
@@ -18,7 +19,7 @@
 
 .title {
     color: palegoldenrod;
-    font-size: 1.4em;
+    font-size: 1.8em;
     font-family: "Roboto Condensed";
     margin: -5px;
     text-shadow: 5px 5px 5px black;
@@ -26,7 +27,7 @@
 }
 
 .language {
-    font-size: 1em;
+    font-size: 1.4em;
     font-family: "Roboto";
     font-weight: normal;
     font-style: italic;
@@ -38,13 +39,13 @@
 .description-container {
     padding: 2px;
     width: 90%;
-    background: rgba(50, 50, 50, .75 );
+    background: radial-gradient(rgba(50, 50, 50, .75), rgba(50, 50, 50, 0));
     margin: auto;
 }
 
 .description {
     font-family: "Roboto Condensed";
-    font-size: .8em;
+    font-size: 1.2em;
     /*padding: 15px 10px 15px 10px;*/
     /*margin: 10px;*/
     color: white;

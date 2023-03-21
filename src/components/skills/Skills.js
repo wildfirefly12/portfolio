@@ -12,6 +12,7 @@ import javaScript from "../../img/icons/javaScript.png";
 import react from "../../img/icons/react.png";
 import sql from "../../img/icons/sql.png";
 import wordpress from "../../img/icons/wordpress.png";
+import angular from "../../img/icons/angular.png";
 import Skill from "./Skill";
 
 const Skills = () => {
@@ -76,6 +77,12 @@ const Skills = () => {
             img: divi,
             title: "Divi Builder",
             years: "5 years"
+        },
+        {
+            id: 11,
+            img: angular,
+            title: "Angular",
+            years: "1 year"
         }
     ]
 
