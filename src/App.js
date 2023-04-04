@@ -9,13 +9,23 @@ import {BrowserRouter} from "react-router-dom";
 function App() {
     const apps = [
         {
+            id: "7",
+            title: "Finance Management Demo App",
+            language: "C#, .Net, Javascript, React",
+            description: "A simple finance management demo application. Created using .Net, Entity Framework and React.",
+            urls: [
+                {id: "1", buttonTitle: "Code", url: "https://github.com/wildfirefly12/FinanceManagementDemoApp"},
+                {id: "2", buttonTitle: "App", url: "https://finance.whitneydecock.com/"}
+            ]
+        },
+        {
             id: "6",
             title: "To-Do App",
             language: "Javascript, React",
             description: "A simple to-do/note management application. Created using React and Javascript",
             urls: [
                 {id: "1", buttonTitle: "Code", url: "https://github.com/wildfirefly12/todo"},
-                {id: "2", buttonTitle: "App", url: "https://todo-m54s3.ondigitalocean.app/"}
+                {id: "2", buttonTitle: "App", url: "https://todo.whitneydecock.com"}
             ]
         },
         {
