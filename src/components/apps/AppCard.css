@@ -23,6 +23,7 @@
     font-family: "Roboto Condensed", sans-serif;
     margin: -5px;
     text-shadow: 5px 5px 5px black;
+    padding: 0 10px 0 10px;
     /*background-image: radial-gradient(black, transparent);*/
 }
 
