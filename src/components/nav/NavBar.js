@@ -12,7 +12,7 @@ const NavBar = () => {
         <div className={"nav-bar"}>
             <NavItem navItem={"portfolio"} link={"#portfolio"}/>
             <NavItem navItem={"skills"} link={"#skills"}/>
-            <NavItem navItem={"resume"} link={"https://drive.google.com/file/d/1VQ6Qn1SaJgt136h9ADegPA9rLdgFWFgQ/view?usp=sharing"}/>
+            <NavItem navItem={"resume"} link={"https://drive.google.com/file/d/111OpuLBFduh5Ih9NZ6XaIev4QPQdBPYz/view?usp=sharing"}/>
         </div>
     )
 }
