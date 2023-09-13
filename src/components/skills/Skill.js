@@ -5,12 +5,12 @@ import "./Skill.css";
 const Skill = (props) => {
 
 
-
     return (
-        <div className={"skill"}>
-            <img className={"skillImg"} src={props.img} alt={props.title}/>
-            <p className={"skillTitle"}>{props.title}</p>
-            <p className={"skillYears"}>{props.years}</p>
+        <div style={props.style} className={"skill"}>
+            <style>{props.keyFrames}</style>
+            <img className={"skill-img"} src={props.img} alt={props.title}/>
+            <p className={"skill-title"}>{props.title}</p>
+            <p className={"skill-years"}>{props.years}</p>
         </div>
     )
 }

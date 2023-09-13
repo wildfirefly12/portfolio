@@ -1,0 +1,37 @@
+.about-section-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.about-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.6em;
+    color: darkcyan;
+    text-transform: uppercase;
+    width: 20%;
+    min-width: 200px;
+}
+
+.about-left-title{
+    text-align: left;
+}
+
+.about-right-title{
+    text-align: right;
+}
+
+.about-content{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1em;
+    width: 60%;
+}
+
+.about-left-content{
+    text-align: right;
+}
+
+.about-right-content{
+    text-align: left;
+}

@@ -1,9 +1,12 @@
-.skillsContainer{
+.skills-container{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 20px;
-    width: 80%;
+    align-content: flex-start;
+    padding: 50px;
     margin-left: auto;
     margin-right: auto;
+    height: calc(100vh - 100px);
+    background-color: aliceblue;
+    width: 100%;
 }

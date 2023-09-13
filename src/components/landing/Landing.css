@@ -1,0 +1,24 @@
+.firstName {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 9vw;
+    color: lightyellow;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 35vh;
+    margin-top: 0;
+    -webkit-text-stroke: 1px gray;
+    text-shadow: 2px 2px 5px black;
+}
+
+.lastName {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 9vw;
+    color: lightyellow;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -1em;
+    -webkit-text-stroke: 1px gray;
+    text-shadow: 2px 2px 5px black;
+}

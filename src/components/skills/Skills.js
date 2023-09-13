@@ -86,11 +86,36 @@ const Skills = () => {
         }
     ]
 
+    for (let i = 0; i < skills.length; i++){
+        const randomY = Math.random();
+        const randomX = Math.random();
+        const isYNegative = randomY > .5;
+        const isXNegative = randomX > .5;
+
+        const randY = Math.floor(randomY * 1000);
+        const randX = Math.floor(randomX * 1000) + 128;
+
+
+        skills[i].style = {
+            position: {
+                top: randY,
+                left: randX
+            },
+            keyFrames: `@keyframes float {
+                0%, 100% {
+                    transform: translate(0, 0);
+                }
+                50% {
+                    transform: translate(${isXNegative ? -20 : 20}px, ${isYNegative ? -20 : 20}px);
+                }
+            }`
+        }
+    }
 
     return (
-        <div className={"skillsContainer"}>
-            {skills.map(skill =>
-                <Skill key={skill.id} img={skill.img} title={skill.title} years={skill.years}/>
+        <div className={"skills-container"}>
+            {skills.map((skill)=>
+                <Skill key={skill.id} img={skill.img} title={skill.title} years={skill.years} style={skill.style.position} keyFrames={skill.style.keyFrames}/>
             )}
         </div>
     )

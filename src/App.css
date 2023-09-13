@@ -3,32 +3,13 @@
 
 .App {
     text-align: center;
-    padding: 0px;
-}
-
-.section{
+    padding: 0;
+    background-image: url("./img/marble.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
+    min-height: 100vh;
     display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    max-width: 1250px;
-}
-
-.sectionTitle{
-    font-size: 4em;
-    color: darkcyan;
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 500;
-    text-transform: lowercase;
-    padding-bottom: 0px;
-}
-
-.skillsSection{
-    background-color: lightyellow;
-    padding-top: 30px;
-    padding-top: 30px;
+    flex-flow: row nowrap;
 }

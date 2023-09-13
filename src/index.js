@@ -4,13 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ReactGA from "react-ga4";
+import {BrowserRouter} from "react-router-dom";
 
 ReactGA.initialize("G-BP8VQ0SWCS");
 
 ReactDOM.render(
-        <React.StrictMode>
-            <App/>
-        </React.StrictMode>,
+            <BrowserRouter>
+                <App/>
+            </BrowserRouter>,
     document.getElementById('root')
 );
 

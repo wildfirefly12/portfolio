@@ -1,0 +1,39 @@
+.portfolio-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+}
+
+.feature-img{
+    width: 55%;
+    object-fit: contain;
+}
+
+.other-images{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 35%;
+    max-height: 80%;
+}
+
+.other-img{
+    height: 50%;
+    max-width: 100%;
+}
+
+.app-name{
+    font-family: "Roboto", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    flex-direction: column;
+}
+
+.all-img:hover{
+    cursor: pointer;
+}

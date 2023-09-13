@@ -1,10 +1,48 @@
 .nav-bar{
-    position: fixed;
-    z-index: 1;
-    background-color: darkcyan;
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
+    background-color: rgba(16, 83, 75, .8);
+    width: 128px;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: left;
     padding-bottom: 10px;
-    box-shadow: 1px 1px 2px gray;
+    height: 100vh;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.headshot {
+    width: 128px;
+    margin-bottom: 10px;
+}
+
+.nav-item{
+    display: inline-block;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    padding: 1px;
+    margin-left: 10px;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.nav-item-text {
+    margin: 10px 0 0 0;
+}
+
+.tagline{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    color: lightyellow;
+    margin-left: 10px;
+    font-size: 1.6em;
+    text-shadow: 2px 2px 5px black;
 }

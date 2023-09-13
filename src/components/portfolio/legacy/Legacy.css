@@ -1,0 +1,56 @@
+.legacy-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    background-color: aliceblue;
+    height: calc(100vh - 100px);
+    padding: 50px;
+}
+
+.legacy-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    color: darkcyan;
+    text-transform: uppercase;
+}
+
+.legacy-content-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.legacy-images{
+    width: 45%;
+    min-width: 320px;
+
+}
+
+.legacy-img{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.tech-icons-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.legacy-about-container{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.legacy-btn{
+    background-color: palegoldenrod;
+    color: darkcyan;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px;
+    margin: 5px;
+    font-size: 1.2em;
+    border-width: 0;
+}

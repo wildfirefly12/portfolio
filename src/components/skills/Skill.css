@@ -1,23 +1,35 @@
 .skill{
     margin: 10px;
     width: 140px;
+    position: absolute;
+    animation: float 5s ease-in-out infinite;
 }
 
-.skillImg{
+.skill-img{
     height: 100px;
 }
 
-.skillTitle{
+.skill-title{
     font-family: "Roboto Condensed", sans-serif;
     font-size: 1.5em;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
-.skillYears{
+.skill-years{
     font-family: "Roboto Condensed", sans-serif;
     font-size: 1.2em;
     font-style: italic;
     padding-top: 0;
     margin-top: 0;
 }
+
+/*
+@keyframes float {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(100px, -100px);
+    }
+}*/

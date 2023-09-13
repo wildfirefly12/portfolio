@@ -1,0 +1,17 @@
+.tech-icon-container{
+    background-color: palegoldenrod;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    width: 75px;
+    height: 30px;
+    padding: 4px;
+    margin: 3px 10px 10px 0;
+    box-shadow: 1px 1px 4px darkgray;
+}
+
+.tech-icon-text{
+    line-height: 30px;
+    vertical-align: center;
+    margin: 0;
+}
