@@ -6,7 +6,7 @@ const Landing = () => {
 
 
     return (
-        <div>
+        <div className={"landing-container"}>
             <h1 className="firstName">Whitney</h1>
             <h1 className="lastName">DeCock</h1>
         </div>

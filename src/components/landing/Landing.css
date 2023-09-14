@@ -1,3 +1,11 @@
+.landing-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
 .firstName {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
@@ -5,7 +13,6 @@
     color: lightyellow;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 35vh;
     margin-top: 0;
     -webkit-text-stroke: 1px gray;
     text-shadow: 2px 2px 5px black;
