@@ -55,6 +55,7 @@ const Legacy = () => {
                         <TechIcon title={"JavaScript"}/>
                         <TechIcon title={"React"}/>
                         <TechIcon title={"MySQL"}/>
+                        <TechIcon title={"Docker"}/>
                         <TechIcon title={"GitHub"}/>
                     </div>
                 </div>
